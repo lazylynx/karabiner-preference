@@ -2,7 +2,7 @@
 
 preferences for Karabiner-Elements
 
-- left command click set input source as US
-- right command click set input source as Hiragana
+- left option click set input source as US
+- right option click set input source as Hiragana
 
 
