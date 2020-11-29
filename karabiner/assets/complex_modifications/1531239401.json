@@ -1,8 +1,8 @@
 {
-  "title": "For Japanese （日本語環境向けの設定） (rev 3)",
+  "title": "For Japanese",
   "rules": [
     {
-      "description": "コマンドキーを単体で押したときに、英数・かなキーを送信する。（左コマンドキーは英数、右コマンドキーはかな） (rev 2)",
+      "description": "send eisu/kana when command key solely pressed",
       "manipulators": [
         {
           "type": "basic",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "description": "コマンドキー（左右どちらでも）を単体で押したときに、英数・かなをトグルで切り替える。",
+      "description": "toggle eisu/kana when command key solely pressed",
       "manipulators": [
         {
           "type": "basic",
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "description": "英数・かなキーを他のキーと同時に押したときに、Optionキーを送信する",
+      "description": "send option key when eisu/kana and another key pressed",
       "manipulators": [
         {
           "type": "basic",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "description": "escキーを押したときに、英数キーも送信する（vim用）",
+      "description": "send eisu for vim when esc pressed",
       "manipulators": [
         {
           "type": "basic",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "description": "Ctrl+[を押したときに、英数キーも送信する（vim用） (rev 2)",
+      "description": "send esc for vim when ctrl+[",
       "manipulators": [
         {
           "type": "basic",
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "description": "Ctrl+[を押したときに、escキーと英数キーを送信する",
+      "description": "send esc and eisu when ctrl+[ pressed",
       "manipulators": [
         {
           "type": "basic",
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "description": "英数・かなキーをtoggle方式にする",
+      "description": "use eisu/kana as toggle",
       "manipulators": [
         {
           "conditions": [
